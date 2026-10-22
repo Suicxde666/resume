@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Theerapat Siriboon</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: '#ffffff',
+            darkBg: '#0a0a0a',
+          },
+          fontFamily: {
+            sans: ['"Montserrat"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased selection:bg-white selection:text-black">
+
+  <nav class="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-auto max-w-[90vw]">
+    <div class="bg-[#111]/80 backdrop-blur-md border border-white/10 rounded-full px-6 py-3 flex items-center gap-4 md:gap-8 shadow-2xl transition-all duration-300 hover:border-white/30 overflow-x-auto whitespace-nowrap scrollbar-hide">
+      <a href="#home" class="text-white font-bold tracking-widest text-sm hover:scale-105 transition-transform">TS.</a>
+      <div class="w-px h-4 bg-white/20"></div>
+      <a href="#education" class="text-xs md:text-sm font-medium text-gray-400 hover:text-white transition-colors">Education</a>
+      <a href="#skills-tools" class="text-xs md:text-sm font-medium text-gray-400 hover:text-white transition-colors">Skills</a>
+      <a href="#activities-experience" class="text-xs md:text-sm font-medium text-gray-400 hover:text-white transition-colors">Experience</a>
+      <a href="#contact" class="text-xs md:text-sm font-medium text-gray-400 hover:text-white transition-colors">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home" class="min-h-screen flex items-center pt-24 px-6 overflow-hidden">
+    <div class="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div data-aos="fade-up">
+        <div class="flex items-center space-x-2 text-white mb-4">
+          <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse shadow-[0_0_4px_rgba(34,197,94,1)]"></span>
+          <span class="text-sm font-semibold tracking-wider">Student & Learner</span>
+        </div>
+        <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+          Hi, I'm <br/> Theerapat Siriboon.
+        </h1>
+        <p class="text-gray-400 text-sm md:text-base max-w-md mb-8 leading-relaxed">
+          A Computer Engineering student passionate about exploring new tech. I'm on a journey to turn classroom theories into practical skills through coding and real-world collaborations.
+        </p>
+      </div>
+      <div class="flex justify-center md:justify-end" data-aos="fade-left" data-aos-delay="200">
+        <img src="https://images.unsplash.com/photo-1618077360395-f3068be8e001?auto=format&fit=crop&w=500&q=80" 
+             alt="Profile" 
+             class="rounded-full object-cover w-64 h-64 md:w-80 md:h-80 img-hover-color border border-white/20 shadow-2xl">
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="py-24 px-6 border-t border-white/10 bg-white/[0.02]">
+    <div class="max-w-7xl mx-auto w-full" data-aos="fade-up">
+      <h2 class="text-4xl font-bold mb-12">My <span class="text-gray-500">Education</span></h2>
+      <div class="bg-[#111] p-8 md:p-10 rounded-2xl border border-white/10 hover:border-white/30 transition-colors">
+        
+        <div class="flex flex-col md:flex-row justify-between md:items-start gap-4 mb-4">
+          <h3 class="text-xl font-bold">Bachelor of Engineering in Computer Engineering and Artificial Intelligence</h3>
+          <span class="shrink-0 text-white font-semibold text-sm bg-white/10 px-3 py-1 rounded-full w-fit">2024 - Present</span>
+        </div>
+        <p class="text-gray-400 text-sm md:text-base mb-6">Panyapiwat Institute of Management</p>
+        
+        <div class="mt-4 mb-10">
+          <h4 class="text-xs text-gray-500 font-semibold uppercase tracking-wider mb-3">Relevant Coursework</h4>
+          <div class="flex flex-wrap gap-3">
+            <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-xs">Introduction to Programming</span>
+            <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-xs">Data Structures</span>
+            <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-xs">Computer Architecture</span>
+            <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-xs">Artificial Intelligence Basics</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row justify-between md:items-start gap-4 mb-4 border-t border-white/10 pt-8">
+          <h3 class="text-xl font-bold">Bachelor of Business Administration (Business Computer)</h3>
+          <span class="shrink-0 text-white font-semibold text-sm bg-white/10 px-3 py-1 rounded-full w-fit">2021 - 2024</span>
+        </div>
+        <p class="text-gray-400 text-sm md:text-base mb-6">Bangkaewfa Industrial And Community Education College</p>
+        
+        <div class="mt-4">
+          <h4 class="text-xs text-gray-500 font-semibold uppercase tracking-wider mb-3">Relevant Coursework</h4>
+          <div class="flex flex-wrap gap-3">
+            <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-xs">Management Information Systems</span>
+            <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-xs">Business Application Programming</span>
+            <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-xs">Web Application Development</span>
+            <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-xs">Systems Analysis and Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills-tools" class="py-24 px-6 border-t border-white/10 overflow-hidden">
+    <div class="max-w-7xl mx-auto w-full">
+      <h2 class="text-4xl font-bold mb-12" data-aos="fade-up"><span class="text-gray-500">Skills</span> & Tools</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16" data-aos="fade-up" data-aos-delay="100">
+        <div class="border-l-2 border-white pl-6">
+          <h3 class="text-xl font-semibold mb-4">Soft Skills</h3>
+          <ul class="space-y-4 text-gray-400 text-sm">
+            <li>• Highly Adaptable & Fast Learner</li>
+            <li>• Problem Solving</li>
+            <li>• Teamwork & Collaboration</li>
+            <li>• Communication</li>
+          </ul>
+        </div>
+        <div class="border-l-2 border-white/20 pl-6 hover:border-white transition-colors">
+          <h3 class="text-xl font-semibold mb-4">Languages</h3>
+          <ul class="space-y-4 text-gray-400 text-sm">
+            <li>• Thai (Native)</li>
+            <li>• English (Basic)</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="text-xl font-semibold mb-6 border-b border-white/10 pb-4" data-aos="fade-up">Tools & Programs</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-[#111] p-6 rounded-xl border border-white/10 text-center hover:border-white hover:-translate-y-2 transition-all cursor-pointer" data-aos="fade-up" data-aos-delay="0">
+          <div class="text-3xl mb-3 grayscale">🎨</div>
+          <h3 class="font-medium text-sm">Figma</h3>
+        </div>
+        <div class="bg-[#111] p-6 rounded-xl border border-white/10 text-center hover:border-white hover:-translate-y-2 transition-all cursor-pointer" data-aos="fade-up" data-aos-delay="100">
+          <div class="text-3xl mb-3 grayscale">💻</div>
+          <h3 class="font-medium text-sm">VS Code</h3>
+        </div>
+        <div class="bg-[#111] p-6 rounded-xl border border-white/10 text-center hover:border-white hover:-translate-y-2 transition-all cursor-pointer" data-aos="fade-up" data-aos-delay="200">
+          <div class="text-3xl mb-3 grayscale">📊</div>
+          <h3 class="font-medium text-sm">Excel / Office</h3>
+        </div>
+        <div class="bg-[#111] p-6 rounded-xl border border-white/10 text-center hover:border-white hover:-translate-y-2 transition-all cursor-pointer" data-aos="fade-up" data-aos-delay="300">
+          <div class="text-3xl mb-3 grayscale">📁</div>
+          <h3 class="font-medium text-sm">Google Workspace</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="activities-experience" class="py-24 px-6 border-t border-white/10 bg-white/[0.02]">
+    <div class="max-w-7xl mx-auto w-full">
+      <h2 class="text-4xl font-bold mb-12" data-aos="fade-up"><span class="text-gray-500">Activities</span> & Experience</h2>
+      
+      <h3 class="text-xl font-semibold mb-6 border-b border-white/10 pb-4" data-aos="fade-up">Work Experience</h3>
+      <div class="space-y-8 mb-16">
+        
+        <div class="group border-b border-white/10 pb-8 hover:border-white transition-colors" data-aos="fade-up" data-aos-delay="100">
+          <div class="flex flex-col md:flex-row justify-between md:items-start gap-4 mb-2">
+            <h3 class="text-lg md:text-xl font-semibold group-hover:text-white transition-colors">IT Support Intern — Local IT Shop</h3>
+            <span class="shrink-0 text-gray-400 text-xs font-semibold border border-gray-600 px-2 py-1 rounded w-fit">6 Months</span>
+          </div>
+          <ul class="list-disc list-inside text-gray-400 text-sm leading-relaxed space-y-2 mt-3 marker:text-white">
+            <li>Assembled, diagnosed, and repaired computer hardware and software issues.</li>
+            <li>Provided technical support and ensured smooth daily IT operations.</li>
+          </ul>
+        </div>
+
+        <div class="group border-b border-white/10 pb-8 hover:border-white transition-colors" data-aos="fade-up" data-aos-delay="200">
+          <div class="flex flex-col md:flex-row justify-between md:items-start gap-4 mb-2">
+            <h3 class="text-lg md:text-xl font-semibold group-hover:text-white transition-colors">Customer Service Associate — 7-Eleven</h3>
+            <span class="shrink-0 text-gray-400 text-xs font-semibold border border-gray-600 px-2 py-1 rounded w-fit">6 Months</span>
+          </div>
+          <ul class="list-disc list-inside text-gray-400 text-sm leading-relaxed space-y-2 mt-3 marker:text-white">
+            <li>Delivered excellent customer service and handled Point of Sale (POS) transactions in a fast-paced environment.</li>
+            <li>Managed store inventory, organized merchandise, and maintained operational standards.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-32 flex flex-col justify-center px-6 border-t border-white/10 bg-[#050505]" data-aos="zoom-in" data-aos-duration="1000">
+    <div class="max-w-7xl mx-auto w-full text-center">
+      <h2 class="text-5xl md:text-7xl font-bold mb-8">Let's work <br/> <span class="text-gray-500">together.</span></h2>
+      <a href="mailto:Theerapax@gmail.com" class="text-xl md:text-3xl font-medium text-gray-300 hover:text-white transition-colors border-b-2 border-white pb-2">
+        Theerapax@gmail.com
+      </a>
+      
+      <div class="mt-12 flex justify-center space-x-6">
+        <a href="#" class="text-gray-400 text-sm font-medium hover:text-white transition-colors">LinkedIn</a>
+        <a href="#" class="text-gray-400 text-sm font-medium hover:text-white transition-colors">GitHub</a>
+        <a href="#" class="text-gray-400 text-sm font-medium hover:text-white transition-colors">Facebook</a>
+      </div>
+
+      <div class="mt-16 text-gray-600 text-xs font-medium">
+        © 2026 Suicxde_.
+      </div>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
